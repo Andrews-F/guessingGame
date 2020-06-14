@@ -224,7 +224,7 @@ var animals = [
     "yak",
     "zebra"
 ];
-var fruits = ["apples","apricots","avocados","bananas","boysenberries","blueberries","bing cherry","cherries","cantaloupe","crab apples","clementine","cucumbers","damson plum","dinosaur eggs","dates","dewberries","dragon fruit","elderberry","eggfruit","evergreen huckleberry","entawak","fig, farkleberry","finger lime","grapefruit", "grapes","gooseberries","guava","honeydew melon","hackberry","honeycrisp apples","indian prune","indonesian lime", "imbe","indian fig","jackfruit","java apple","jambolan","kiwi","kaffir lime","kumquat","lime","longan","lychee","loquat","mango","mandarin orange","mulberry","melon","nectarine","navel orange","nashi pear","olive","oranges","ogeechee limes","oval kumquat","papaya","persimmon", "paw paw","prickly pear","peach","pomegranate","pineapple","quince","queen anne cherry","quararibea cordata","rambutan", "raspberries","rose hips","star fruit","strawberries","sugar baby watermelon","tomato","tangerine","tamarind","tart cherries","ugli fruit","uniq fruit","ugni","vanilla bean","velvet pink banana","voavanga","watermelon","wolfberry","white mulberry","xigua","ximenia caffra fruit","xango mangosteen","yellow passion fruit","yunnan hackberry","yangmei","zig zag vine fruit","zinfandel grapes","zucchini"];
+var fruits = ["apple","apricot","avocado","banana","boysenberry","blueberry","bing cherry","cherry","cantaloupe","crab apple","clementine","cucumber","plum","dinosaur eggs","date","dewberry","dragon fruit","elderberry","eggfruit","evergreen huckleberry","entawak","fig, farkleberry","finger lime","grapefruit","grape","gooseberry","guava","honeydew","hackberry","honeycrisp apple","indian prune","indonesian lime", "imbe","indian fig","jackfruit","java apple","jambolan","kiwi","kaffir lime","kumquat","lime","longan","lychee","loquat","mango","mandarin orange","mulberry","melon","nectarine","navel orange","nashi pear","olive","orange","ogeechee lime","oval kumquat","papaya","persimmon", "paw paw","prickly pear","peach","pomegranate","pineapple","quince","queen anne cherry","quararibea cordata","rambutan", "raspberry","rose hip","star fruit","strawberry","sugar baby watermelon","tomato","tangerine","tamarind","tart cherries","ugli fruit","uniq fruit","ugni","vanilla bean","velvet pink banana","voavanga","watermelon","wolfberry","white mulberry","xigua","ximenia caffra fruit","xango mangosteen","yellow passion fruit","yunnan hackberry","yangmei","zig zag vine fruit","zinfandel grapes","zucchini"];
 var cities = ["afghanistan","albania", "algeria","andorra","angola","antigua","argentina","armenia","australia","austria","bahamas","barbados","belgium","brazil","cambodia","canada","china","dominican republic","dominica","denmark","ecuador","egypt","fiji","finland","france","germany","ghana","greece","guatemala","haiti","holy see","honduras","hungary","iceland","india","indonesia","iran","iraq","ireland","israel","italy","jamaica","japan","kenya","kuwait","laos","lebanon","latvia","liberia","madagascar","malaysia","maldives","mexico","netherlands","north korea","norway","oman","pakistan","palau","panama","peru","qatar","romania","russia","saint lucia","samoa","saudi arabia","serbia","sweden","thailand","tanzania","ukraine","united states","united kingdom","venezuela","vietnam","yemen","zambia","zimbabwe"];
 
 var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
@@ -291,12 +291,12 @@ function add() {
     // alert(animals.includes(a));
 
     if ((animals.includes(a)) && (aPrime.charAt(0) == currentAlphabetLetter)) {
-      if((fruits.includes(b)) && (aPrime.charAt(0) == currentAlphabetLetter)) {
+ //     if((fruits.includes(b)) && (aPrime.charAt(0) == currentAlphabetLetter)) {
             if((cities.includes(c)) && (cPrime.charAt(0) == currentAlphabetLetter)) {
                 successCounter = successCounter + 1;
                 timeleft = 40;
             }
-        }
+       // }
     } else {
         alert("YOU HAVE LOST! BEEP BAP BOOP");
         successCounter = 0;
