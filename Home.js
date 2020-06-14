@@ -293,9 +293,9 @@ function add() {
     if ((animals.includes(a)) && (aPrime.charAt(0) == currentAlphabetLetter)) {
  //     if((fruits.includes(b)) && (aPrime.charAt(0) == currentAlphabetLetter)) {
             if((cities.includes(c)) && (cPrime.charAt(0) == currentAlphabetLetter)) {
-                successCounter = successCounter + 1;
-                timeleft = 40;
             }
+            successCounter = successCounter + 1;
+            timeleft = 40;
        // }
     } else {
         alert("YOU HAVE LOST! BEEP BAP BOOP");
