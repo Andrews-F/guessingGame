@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+
+        <title>The HTML5 Herald</title>
+        <meta name="description" content="The HTML5 Herald" />
+        <meta name="author" content="SitePoint" />
+
+        <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@900&display=swap" rel="stylesheet" />
+
+        <link rel="stylesheet" href="Home.css" />
+        <script src="Home.js"></script>
+        <meta name="viewport" content="width=device-width">
+    </head>
+
+    <body>
+            <div class="gameTitle">
+                <!-- This is going to be the title of the game -->
+                <p class="IntroText">Welcome to the guessing game</p>
+            </div>
+
+            <div class="successTracker">
+                <p class="sucessTrackerText" id="successTrackerTextID">-</p>
+            </div>
+
+            <div class="timer">
+                <p class="timerText" id="demo1"></p>
+            </div>
+
+            <div class="gameTriggerButton">
+                <!-- This button triggers a JS event. This is going to control the new items to be displayed. -->
+                <button class="big-button" type="button" id="demo" onclick="add()">
+                    Click Me!
+                </button>
+            </div>
+
+            <div class="gameLetter">
+                <!-- Alphabet Letter to be displayed. -->
+                <p class="alphabetLetter" id="possibleText0">-</p>
+            </div>
+
+            <div class="allColumns">
+                <div class="gameColumn">
+                    <!-- This will be the text that is changed. -->
+                    <p class="columnText" id="possibleText1">ANIMAL</p>
+                    <form><input class="inp" type="text" name="a" id="a" /><br /> </form>
+                </div>
+
+                <div class="gameColumn">
+                    <!-- This will be the text that is changed. -->
+                    <p class="columnText" id="possibleText2">FRUIT</p>
+                    <form><input class="inp" type="text" name="b" id="b" /><br /></form>
+                </div>
+
+                <div class="gameColumn">
+                    <!-- This will be the text that is changed. -->
+                    <p class="columnText" id="possibleText3">COUNTRY</p>
+                    <form><input class="inp" type="text" name="c" id="c" /><br /></form>
+                </div>
+            </div>
+    </body>
+</html>
