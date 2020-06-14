@@ -289,7 +289,6 @@ function add() {
 
     //0 if they match.
     // alert(animals.includes(a));
-
     if ((animals.includes(a)) && (aPrime.charAt(0) == currentAlphabetLetter)) {
  //     if((fruits.includes(b)) && (aPrime.charAt(0) == currentAlphabetLetter)) {
             if((cities.includes(c)) && (cPrime.charAt(0) == currentAlphabetLetter)) {
@@ -298,7 +297,6 @@ function add() {
             timeleft = 40;
        // }
     } else {
-        alert("YOU HAVE LOST! BEEP BAP BOOP");
         successCounter = 0;
     }
     randomNumberGenerator();
